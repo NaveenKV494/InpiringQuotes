@@ -5,6 +5,16 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InpiringQuotes", "InpiringQuotes\InpiringQuotes.csproj", "{BC19ECCF-6133-4CFE-9003-E53B4531E4DE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InspiringQuotes-API", "InspiringQuotes-API", "{5A11EE65-6F44-4E5E-B8FE-F6D04E009AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspiringQuotes.Data", "InspiringQuotes.Data\InspiringQuotes.Data.csproj", "{AE555C98-C4A5-40BC-98D6-DD4760768630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspiringQuotes.Service", "InspiringQuotes.Service\InspiringQuotes.Service.csproj", "{3FE8420C-7105-4F86-AF46-0655F362DBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspiringQuotes.Common", "InspiringQuotes.Common\InspiringQuotes.Common.csproj", "{5AB47B69-8706-4351-89D3-F954C1E2DA24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspiringQuotes.Tests", "InspiringQuotes.Tests\InspiringQuotes.Tests.csproj", "{71ADEFA5-79EB-4AB3-9537-5EBDBF8955FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +25,31 @@ Global
 		{BC19ECCF-6133-4CFE-9003-E53B4531E4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC19ECCF-6133-4CFE-9003-E53B4531E4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC19ECCF-6133-4CFE-9003-E53B4531E4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE555C98-C4A5-40BC-98D6-DD4760768630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE555C98-C4A5-40BC-98D6-DD4760768630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE555C98-C4A5-40BC-98D6-DD4760768630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE555C98-C4A5-40BC-98D6-DD4760768630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE8420C-7105-4F86-AF46-0655F362DBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE8420C-7105-4F86-AF46-0655F362DBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE8420C-7105-4F86-AF46-0655F362DBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE8420C-7105-4F86-AF46-0655F362DBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB47B69-8706-4351-89D3-F954C1E2DA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB47B69-8706-4351-89D3-F954C1E2DA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB47B69-8706-4351-89D3-F954C1E2DA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB47B69-8706-4351-89D3-F954C1E2DA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71ADEFA5-79EB-4AB3-9537-5EBDBF8955FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71ADEFA5-79EB-4AB3-9537-5EBDBF8955FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71ADEFA5-79EB-4AB3-9537-5EBDBF8955FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71ADEFA5-79EB-4AB3-9537-5EBDBF8955FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC19ECCF-6133-4CFE-9003-E53B4531E4DE} = {5A11EE65-6F44-4E5E-B8FE-F6D04E009AA7}
+		{AE555C98-C4A5-40BC-98D6-DD4760768630} = {5A11EE65-6F44-4E5E-B8FE-F6D04E009AA7}
+		{3FE8420C-7105-4F86-AF46-0655F362DBDE} = {5A11EE65-6F44-4E5E-B8FE-F6D04E009AA7}
+		{5AB47B69-8706-4351-89D3-F954C1E2DA24} = {5A11EE65-6F44-4E5E-B8FE-F6D04E009AA7}
+		{71ADEFA5-79EB-4AB3-9537-5EBDBF8955FF} = {5A11EE65-6F44-4E5E-B8FE-F6D04E009AA7}
 	EndGlobalSection
 EndGlobal
